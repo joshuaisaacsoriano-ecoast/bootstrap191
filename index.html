@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Darkstar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("SpaceIsAwesome.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .card {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            border: none;
+        }
+
+        .card img {
+            height: 250px;
+            object-fit: contain;
+            background-color: black;
+        }
+
+        .section {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="RocketLogoSVG.svg"
+                    alt="Rocket"
+                    width="40"
+                    height="40">
+                Darkstar
+            </a>
+        </div>
+    </nav>
+
+    <div class="hero text-center">
+        <h1>Space Expedition</h1>
+        <p class="lead">
+            Discover the people who helped humanity reach the Moon.
+        </p>
+    </div>
+
+    <div class="container section">
+        <h2 class="text-center mb-4">
+            Famous Astronauts
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Neil A.jpg"
+                         class="card-img-top"
+                         alt="Neil Armstrong">
+                    <div class="card-body">
+                        <h3>Neil Armstrong</h3>
+                        <p>
+                            Neil Armstrong was an American astronaut
+                            and aerospace engineer. He became the first
+                            person to walk on the Moon during the Apollo 11
+                            mission in 1969.
+                        </p>
+                        <p>
+                            <strong>Born:</strong> August 5, 1930
+                        </p>
+                        <p>
+                            <strong>Mission:</strong> Apollo 11
+                        </p>
+                        <p class="text-secondary small">
+                            Image: NASA
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Buzz A.jpg"
+                         class="card-img-top"
+                         alt="Buzz Aldrin">
+                    <div class="card-body">
+                        <h3>Buzz Aldrin</h3>
+                        <p>
+                            Buzz Aldrin is an American astronaut and
+                            engineer. He became the second person to
+                            walk on the Moon during the Apollo 11 mission.
+                        </p>
+                        <p>
+                            <strong>Born:</strong> January 20, 1930
+                        </p>
+                        <p>
+                            <strong>Mission:</strong> Apollo 11
+                        </p>
+                        <p class="text-secondary small">
+                            Image: NASA
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="Michael C.jpg"
+                         class="card-img-top"
+                         alt="Michael Collins">
+                    <div class="card-body">
+                        <h3>Michael Collins</h3>
+                        <p>
+                            Michael Collins was the command module
+                            pilot of Apollo 11. He remained in lunar
+                            orbit while Armstrong and Aldrin explored
+                            the Moon.
+                        </p>
+                        <p>
+                            <strong>Born:</strong> October 31, 1930
+                        </p>
+                        <p>
+                            <strong>Mission:</strong> Apollo 11
+                        </p>
+                        <p class="text-secondary small">
+                            Image: NASA
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container section text-center">
+        <h2>Apollo 11</h2>
+        <p>
+            On July 20, 1969, Apollo 11 became the first
+            crewed mission to land humans on the Moon.
+            Neil Armstrong and Buzz Aldrin explored the
+            lunar surface while Michael Collins remained
+            in orbit.
+        </p>
+        <button class="btn btn-primary">
+            Explore Space
+        </button>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">
+            Darkstar &copy; 2026
+        </p>
+        <small>
+            Images courtesy of NASA.
+        </small>
+    </footer>
+</body>
+
+</html>
